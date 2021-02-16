@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TNM094"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\glfw\;CMake Files\ext\glfw\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tracy">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/tracy.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/tracy"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 tracy"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tracy/fast">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/tracy.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/tracy"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 tracy/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/imgui.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glad/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 imgui"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui/fast">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/imgui.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glad/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 imgui/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ParticleSystem">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/bin/ParticleSystem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/tracy"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glad/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 ParticleSystem"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ParticleSystem/fast">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/bin/ParticleSystem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/tracy"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glad/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 ParticleSystem/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unittest">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/bin/unittest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/catch2"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 unittest"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unittest/fast">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/bin/unittest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/catch2"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 unittest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/glad.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glad/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 glad"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/glad.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glad/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 glad/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/ext/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/ext/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/ext/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src\Makefile VERBOSE=1 glfw"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/ext/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/ext/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/include"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src"/>
+					<Add directory="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/ext/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src\Makefile VERBOSE=1 glfw/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/ext/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_demo.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_draw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_impl_glfw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_impl_glfw.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_impl_opengl3.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_impl_opengl3.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_widgets.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/tracy/TracyClient.cpp">
+			<Option target="tracy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/include/Emitter.h">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/include/Force.h">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/include/Particle.h">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/include/particlesystem.h">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/include/util/rendering.h">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/src/Emitter.cpp">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/src/Force.cpp">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/src/Particle.cpp">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/src/main.cpp">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/src/particlesystem.cpp">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/src/util/rendering.cpp">
+			<Option target="ParticleSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/unittest/main.cpp">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/unittest/othertests.cpp">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/unittest/vec2.cpp">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

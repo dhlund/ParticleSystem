@@ -78,17 +78,23 @@ target_include_directories(glad PUBLIC ext/glad/include)
 set_property(TARGET glad PROPERTY FOLDER "External")
 
 ###
-# Particle System Library
+# particle System Library
 ###
 set(HEADER_FILES
   include/particlesystem.h
   include/util/rendering.h
+  include/Particle.h
+  include/Force.h
+  include/Emitter.h
 )
 
 set(SOURCE_FILES
     src/main.cpp
     src/particlesystem.cpp
     src/util/rendering.cpp
+    src/Particle.cpp
+    src/Force.cpp
+    src/Emitter.cpp
 )
 
 add_executable(ParticleSystem

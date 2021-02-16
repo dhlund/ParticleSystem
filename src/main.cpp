@@ -1,3 +1,4 @@
+#define _USE_MATH_DEFINES
 #include "Tracy.hpp"
 #include "particlesystem.h"
 #include "util/rendering.h"
@@ -5,6 +6,10 @@
 #include <algorithm>
 #include <iterator>
 #include <random>
+#include <Emitter.h>
+#include <cmath>
+
+
 
 // A function strictly used to exemplify the
 // render[Particles/Emitters/Forces] functions.
@@ -16,7 +21,11 @@ int main(int, char**) {
 
     ParticleSystem particleSystem;
 
-    float speed = 1.0f;
+    vec2 coord{};
+    float angle = 0;
+    float pps = 0.93f;
+    float speed = 0.01f;
+    Color myColor = Color(1,1,1);
     bool isRunning = true;
     while (isRunning) {
         const float dt = rendering::beginFrame();
@@ -24,21 +33,34 @@ int main(int, char**) {
         {
             ui::GuiScope ui;  // Initiates and finalizes UI rendering upon
                               // construction/destruction
-            // @TODO: Add UI calls
 
-            // @TODO: Replace this example code with your own UI elements
-            ui::text("I'm text!");
-            ui::sliderFloat("Simulation speed", speed, 0.001f, 10.0f);
+            ui::text("Particle system");
+            ui::sliderFloat("Simulation speed", speed, 0.0001f, 0.01f);
+            ui::sliderFloat("Particles spawn speed", pps, 0.75f, 1);
+            ui::sliderFloat("Angle for adjustable emitter", angle, 0, (float)2*M_PI);
+            ui::colorPicker("Color picker", myColor);
+            ui::sliderVec2("X, Y Coordinates", coord, -1, 1);
+
+
+            if(ui::button("Add Spinning Emitter"))
+            {
+                particleSystem.addEmitter(coord, (float)M_PI_4, 100, 0, true, myColor);
+            }
+            if(ui::button("Add Adjustable Emitter"))
+            {
+                particleSystem.addEmitter(coord, 0, 100, 0, false, myColor);
+            }
+
             if (ui::button("Close application")) {
                 isRunning = false;
             }
         }
 
-        particleSystem.update(dt * speed);
+        particleSystem.update(dt * speed, angle, pps);
         particleSystem.render();
 
-        // Particle generation and rendering example. Remove in your implementation.
-        particleRenderingExample();
+        // particle generation and rendering example. Remove in your implementation.
+        //particleRenderingExample();
 
         isRunning &= rendering::endFrame();
     }
@@ -59,7 +81,7 @@ void particleRenderingExample() {
         auto closedInterval = [](float val) {
             return std::nextafter(val, std::numeric_limits<float>::max());
         };
-        // Particle data distributions
+        // particle data distributions
         // Position in [-1,1] = Screen extent
         std::uniform_real_distribution<float> posDist(-1.f, closedInterval(1.f));
         // Color [0, 1] per channel

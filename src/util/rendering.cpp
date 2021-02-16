@@ -681,7 +681,7 @@ void createWindow() {
     glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GLFW_TRUE);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     assert(_window == nullptr);
-    _window = glfwCreateWindow(Width, Height, "Particle System", nullptr, nullptr);
+    _window = glfwCreateWindow(Width, Height, "particle System", nullptr, nullptr);
     glfwMakeContextCurrent(_window);
     glfwSwapInterval(0);
     glfwSetWindowSizeCallback(_window, updateWindowSize);
