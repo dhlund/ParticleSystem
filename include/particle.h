@@ -14,7 +14,6 @@ class Particle {
         Color color = {0,0,0};
         vec2 velocity{0,0};
         float radius{2};
-        float acc;
 
      Particle();
 };

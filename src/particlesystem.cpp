@@ -42,21 +42,23 @@ void ParticleSystem::update(float dt, float angle, float pps, float lifetime, bo
 
                 for (int i = 0; i < myParticles.size(); i++) {
                     if(!myForces.empty()){
+                        for(int j = 0; j < myForces.size(); j++)
+                        {
+                            float dist = (sqrt(pow(myParticles[i].position.x - myForces[j].position.x,2) +
+                                               pow(myParticles[i].position.y - myForces[j].position.y,2)));
 
-                        float dist = (sqrt(pow(myParticles[i].position.x - myForces[0].position.x,2) +
-                                           pow(myParticles[i].position.y - myForces[0].position.y,2)));
+                            vec2 diff = myParticles[i].position - myForces[j].position;
 
-                        vec2 diff = myParticles[i].position - myForces[0].position;
-
-                        if (dist < 0.2) {
-                            myParticles[i].velocity.x += myForces[0].force * diff.x*dt;
-                            myParticles[i].velocity.y += myForces[0].force * diff.y*dt;
+                            if (dist < 0.2) {
+                                myParticles[i].velocity.x += myForces[j].force * diff.x*dt;
+                                myParticles[i].velocity.y += myForces[j].force * diff.y*dt;
+                            }
                         }
-                    }
 
-                    if(gravity){
-                        vec2 gravity_force{0,-20};
-                        myParticles[i].velocity = myParticles[i].velocity + gravity_force*dt;
+                        if(gravity){
+                            vec2 gravity_force{0,-20};
+                            myParticles[i].velocity = myParticles[i].velocity + gravity_force*dt;
+                        }
                     }
 
                     myParticles[i].position += myParticles[i].velocity * dt;

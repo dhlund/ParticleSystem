@@ -13,7 +13,6 @@ class Emitter {
         float angle{};
         float vel{};
         float pps{};
-        float spread{};
         float timeval{};
         bool rot;
         Color color;
