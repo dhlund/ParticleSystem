@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem
+CMAKE_SOURCE_DIR = C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\tracy.dir\depend.make
@@ -63,21 +63,21 @@ include CMakeFiles\tracy.dir\flags.make
 
 CMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.obj: CMakeFiles\tracy.dir\flags.make
 CMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.obj: ..\ext\tracy\TracyClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tracy.dir/ext/tracy/TracyClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tracy.dir/ext/tracy/TracyClient.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.obj /FdCMakeFiles\tracy.dir\tracy.pdb /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\tracy\TracyClient.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.obj /FdCMakeFiles\tracy.dir\tracy.pdb /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\tracy\TracyClient.cpp
 <<
 
 CMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracy.dir/ext/tracy/TracyClient.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\tracy\TracyClient.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\tracy\TracyClient.cpp
 <<
 
 CMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracy.dir/ext/tracy/TracyClient.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\tracy\TracyClient.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\tracy\TracyClient.cpp
 <<
 
 # Object files for target tracy
@@ -90,7 +90,7 @@ tracy_EXTERNAL_OBJECTS =
 tracy.lib: CMakeFiles\tracy.dir\ext\tracy\TracyClient.cpp.obj
 tracy.lib: CMakeFiles\tracy.dir\build.make
 tracy.lib: CMakeFiles\tracy.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library tracy.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library tracy.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles\tracy.dir\cmake_clean_target.cmake
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /lib /nologo /machine:X86 /out:tracy.lib @CMakeFiles\tracy.dir\objects1.rsp 
 
@@ -104,6 +104,6 @@ CMakeFiles\tracy.dir\clean:
 .PHONY : CMakeFiles\tracy.dir\clean
 
 CMakeFiles\tracy.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles\tracy.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles\tracy.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\tracy.dir\depend
 

@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui.cpp" "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.obj"
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_demo.cpp" "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.obj"
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_draw.cpp" "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.obj"
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_impl_glfw.cpp" "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_impl_glfw.cpp.obj"
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_impl_opengl3.cpp" "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_impl_opengl3.cpp.obj"
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/imgui/imgui_widgets.cpp" "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.obj"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/ext/imgui/imgui.cpp" "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.obj"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/ext/imgui/imgui_demo.cpp" "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.obj"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/ext/imgui/imgui_draw.cpp" "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.obj"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/ext/imgui/imgui_impl_glfw.cpp" "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_impl_glfw.cpp.obj"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/ext/imgui/imgui_impl_opengl3.cpp" "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_impl_opengl3.cpp.obj"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/ext/imgui/imgui_widgets.cpp" "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -27,8 +27,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/glad.dir/DependInfo.cmake"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

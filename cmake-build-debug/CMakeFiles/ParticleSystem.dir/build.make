@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem
+CMAKE_SOURCE_DIR = C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\ParticleSystem.dir\depend.make
@@ -63,116 +63,116 @@ include CMakeFiles\ParticleSystem.dir\flags.make
 
 CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: CMakeFiles\ParticleSystem.dir\flags.make
 CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: ..\src\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ParticleSystem.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ParticleSystem.dir/src/main.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\main.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\main.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\main.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParticleSystem.dir/src/main.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ParticleSystem.dir\src\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\main.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParticleSystem.dir/src/main.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\main.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\main.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\main.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: CMakeFiles\ParticleSystem.dir\flags.make
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: ..\src\particlesystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ParticleSystem.dir/src/particlesystem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ParticleSystem.dir/src/particlesystem.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\particlesystem.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\particlesystem.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParticleSystem.dir/src/particlesystem.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\particlesystem.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\particlesystem.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParticleSystem.dir/src/particlesystem.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\particlesystem.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\particlesystem.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\util\rendering.cpp.obj: CMakeFiles\ParticleSystem.dir\flags.make
 CMakeFiles\ParticleSystem.dir\src\util\rendering.cpp.obj: ..\src\util\rendering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ParticleSystem.dir/src/util/rendering.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ParticleSystem.dir/src/util/rendering.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\util\rendering.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\util\rendering.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\util\rendering.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\util\rendering.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\util\rendering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParticleSystem.dir/src/util/rendering.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ParticleSystem.dir\src\util\rendering.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\util\rendering.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\util\rendering.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\util\rendering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParticleSystem.dir/src/util/rendering.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\util\rendering.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\util\rendering.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\util\rendering.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\util\rendering.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\Particle.cpp.obj: CMakeFiles\ParticleSystem.dir\flags.make
 CMakeFiles\ParticleSystem.dir\src\Particle.cpp.obj: ..\src\Particle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ParticleSystem.dir/src/Particle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ParticleSystem.dir/src/Particle.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\Particle.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\Particle.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\Particle.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\Particle.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\Particle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParticleSystem.dir/src/Particle.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ParticleSystem.dir\src\Particle.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\Particle.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\Particle.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\Particle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParticleSystem.dir/src/Particle.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\Particle.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\Particle.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\Particle.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\Particle.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\Force.cpp.obj: CMakeFiles\ParticleSystem.dir\flags.make
 CMakeFiles\ParticleSystem.dir\src\Force.cpp.obj: ..\src\Force.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ParticleSystem.dir/src/Force.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ParticleSystem.dir/src/Force.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\Force.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\Force.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\Force.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\Force.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\Force.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParticleSystem.dir/src/Force.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ParticleSystem.dir\src\Force.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\Force.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\Force.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\Force.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParticleSystem.dir/src/Force.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\Force.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\Force.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\Force.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\Force.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: CMakeFiles\ParticleSystem.dir\flags.make
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: ..\src\Emitter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ParticleSystem.dir/src/Emitter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ParticleSystem.dir/src/Emitter.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\Emitter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj /FdCMakeFiles\ParticleSystem.dir\ /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\Emitter.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParticleSystem.dir/src/Emitter.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\Emitter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\Emitter.cpp
 <<
 
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParticleSystem.dir/src/Emitter.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\Emitter.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\src\Emitter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ParticleSystem.dir\src\Emitter.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\src\Emitter.cpp
 <<
 
 # Object files for target ParticleSystem
@@ -201,9 +201,9 @@ ParticleSystem_EXTERNAL_OBJECTS =
 ..\bin\ParticleSystem.exe: glad.lib
 ..\bin\ParticleSystem.exe: ext\glfw\src\glfw3.lib
 ..\bin\ParticleSystem.exe: CMakeFiles\ParticleSystem.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ..\bin\ParticleSystem.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ..\bin\ParticleSystem.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\ParticleSystem.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\ParticleSystem.dir\objects1.rsp @<<
- /out:..\bin\ParticleSystem.exe /implib:ParticleSystem.lib /pdb:C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\bin\ParticleSystem.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  tracy.lib glad.lib ext\glfw\src\glfw3.lib imgui.lib glad.lib ext\glfw\src\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:..\bin\ParticleSystem.exe /implib:ParticleSystem.lib /pdb:C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\bin\ParticleSystem.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  tracy.lib glad.lib ext\glfw\src\glfw3.lib imgui.lib glad.lib ext\glfw\src\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles\ParticleSystem.dir\clean:
 .PHONY : CMakeFiles\ParticleSystem.dir\clean
 
 CMakeFiles\ParticleSystem.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles\ParticleSystem.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles\ParticleSystem.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\ParticleSystem.dir\depend
 

@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /W0 -std:
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\tracy 
+CXX_INCLUDES = -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\tracy 
 

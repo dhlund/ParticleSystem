@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glad/src/glad.c" "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/glad.dir/ext/glad/src/glad.c.obj"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/ext/glad/src/glad.c" "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/glad.dir/ext/glad/src/glad.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

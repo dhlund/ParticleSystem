@@ -7,6 +7,7 @@
 #include <vector>
 #include <Emitter.h>
 #include <Particle.h>
+#include <Force.h>
 
 
 class ParticleSystem {
@@ -14,12 +15,15 @@ public:
     ParticleSystem();
     std::vector<Particle> myParticles;
     std::vector<Emitter> myEmitters;
-    void update(float dt, float angle, float pps);
+    std::vector<Force> myForces;
+    void update(float dt, float angle, float pps, float lifetime);
     void render();
     void addParticle(vec2 position, float lifetime, Color color, float radius, Emitter emitter);
-    void ParticleSystem::addEmitter(vec2 position,float angle, float vel, float timeval, bool rot, Color color);
+    void addForce(vec2 position, float angle, float force);
+    void addEmitter(vec2 position,float angle, float vel, float timeval, bool rot, Color color);
     std::vector<rendering::ParticleInfo> ParticleSystem::toRenderparticles(std::vector<Particle> v);
     std::vector<rendering::EmitterInfo> ParticleSystem::toRenderemitters(std::vector<Emitter> v);
+    std::vector<rendering::ForceInfo> ParticleSystem::toRenderforces(std::vector<Force> v);
 };
 
 #endif // __PARTICLESYSTEM_H__

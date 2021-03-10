@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem
+CMAKE_SOURCE_DIR = C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\imgui.dir\depend.make
@@ -63,116 +63,116 @@ include CMakeFiles\imgui.dir\flags.make
 
 CMakeFiles\imgui.dir\ext\imgui\imgui.cpp.obj: CMakeFiles\imgui.dir\flags.make
 CMakeFiles\imgui.dir\ext\imgui\imgui.cpp.obj: ..\ext\imgui\imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\imgui.dir\ext\imgui\imgui.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_demo.cpp.obj: CMakeFiles\imgui.dir\flags.make
 CMakeFiles\imgui.dir\ext\imgui\imgui_demo.cpp.obj: ..\ext\imgui\imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_demo.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_demo.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_demo.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_demo.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\imgui.dir\ext\imgui\imgui_demo.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_demo.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_demo.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_demo.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_demo.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_demo.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_demo.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_draw.cpp.obj: CMakeFiles\imgui.dir\flags.make
 CMakeFiles\imgui.dir\ext\imgui\imgui_draw.cpp.obj: ..\ext\imgui\imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_draw.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_draw.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_draw.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_draw.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\imgui.dir\ext\imgui\imgui_draw.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_draw.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_draw.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_draw.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_draw.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_draw.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_draw.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_widgets.cpp.obj: CMakeFiles\imgui.dir\flags.make
 CMakeFiles\imgui.dir\ext\imgui\imgui_widgets.cpp.obj: ..\ext\imgui\imgui_widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_widgets.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_widgets.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_widgets.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_widgets.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\imgui.dir\ext\imgui\imgui_widgets.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_widgets.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_widgets.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_widgets.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_widgets.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_widgets.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_widgets.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.obj: CMakeFiles\imgui.dir\flags.make
 CMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.obj: ..\ext\imgui\imgui_impl_glfw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_impl_glfw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_impl_glfw.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_glfw.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_glfw.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/ext/imgui/imgui_impl_glfw.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_glfw.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_glfw.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/ext/imgui/imgui_impl_glfw.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_glfw.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_glfw.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.obj: CMakeFiles\imgui.dir\flags.make
 CMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.obj: ..\ext\imgui\imgui_impl_opengl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_impl_opengl3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imgui.dir/ext/imgui/imgui_impl_opengl3.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_opengl3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.obj /FdCMakeFiles\imgui.dir\imgui.pdb /FS -c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_opengl3.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/ext/imgui/imgui_impl_opengl3.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_opengl3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_opengl3.cpp
 <<
 
 CMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/ext/imgui/imgui_impl_opengl3.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.s /c C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_opengl3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.s /c C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui\imgui_impl_opengl3.cpp
 <<
 
 # Object files for target imgui
@@ -195,7 +195,7 @@ imgui.lib: CMakeFiles\imgui.dir\ext\imgui\imgui_impl_glfw.cpp.obj
 imgui.lib: CMakeFiles\imgui.dir\ext\imgui\imgui_impl_opengl3.cpp.obj
 imgui.lib: CMakeFiles\imgui.dir\build.make
 imgui.lib: CMakeFiles\imgui.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library imgui.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library imgui.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles\imgui.dir\cmake_clean_target.cmake
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /lib /nologo /machine:X86 /out:imgui.lib @CMakeFiles\imgui.dir\objects1.rsp 
 
@@ -209,6 +209,6 @@ CMakeFiles\imgui.dir\clean:
 .PHONY : CMakeFiles\imgui.dir\clean
 
 CMakeFiles\imgui.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles\imgui.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles\imgui.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\imgui.dir\depend
 

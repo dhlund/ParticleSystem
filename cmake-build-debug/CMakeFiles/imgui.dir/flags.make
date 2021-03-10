@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
 
 CXX_DEFINES = -DIMGUI_IMPL_OPENGL_LOADER_GLAD
 
-CXX_INCLUDES = -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\glfw\include -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\glad\include 
+CXX_INCLUDES = -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\glfw\include -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\glad\include 
 

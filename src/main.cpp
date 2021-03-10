@@ -8,8 +8,7 @@
 #include <random>
 #include <Emitter.h>
 #include <cmath>
-
-
+#include <iostream>
 
 // A function strictly used to exemplify the
 // render[Particles/Emitters/Forces] functions.
@@ -25,6 +24,7 @@ int main(int, char**) {
     float angle = 0;
     float pps = 0.93f;
     float speed = 0.01f;
+    float lifetime = 8;
     Color myColor = Color(1,1,1);
     bool isRunning = true;
     while (isRunning) {
@@ -37,6 +37,7 @@ int main(int, char**) {
             ui::text("Particle system");
             ui::sliderFloat("Simulation speed", speed, 0.0001f, 0.01f);
             ui::sliderFloat("Particles spawn speed", pps, 0.75f, 1);
+            ui::sliderFloat("Lifetime", lifetime, 2, 25);
             ui::sliderFloat("Angle for adjustable emitter", angle, 0, (float)2*M_PI);
             ui::colorPicker("Color picker", myColor);
             ui::sliderVec2("X, Y Coordinates", coord, -1, 1);
@@ -44,11 +45,19 @@ int main(int, char**) {
 
             if(ui::button("Add Spinning Emitter"))
             {
+                std::cout << "Adding emitter..." << std::endl;
                 particleSystem.addEmitter(coord, (float)M_PI_4, 100, 0, true, myColor);
             }
             if(ui::button("Add Adjustable Emitter"))
             {
+                std::cout << "Adding emitter..." << std::endl;
                 particleSystem.addEmitter(coord, 0, 100, 0, false, myColor);
+            }
+
+            if(ui::button("Add Force"))
+            {
+                std::cout << "Adding force..." << std::endl;
+                particleSystem.addForce(coord,(float)M_PI_4, 200);
             }
 
             if (ui::button("Close application")) {
@@ -56,7 +65,7 @@ int main(int, char**) {
             }
         }
 
-        particleSystem.update(dt * speed, angle, pps);
+        particleSystem.update(dt * speed, angle, pps, lifetime);
         particleSystem.render();
 
         // particle generation and rendering example. Remove in your implementation.

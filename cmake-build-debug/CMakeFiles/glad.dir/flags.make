@@ -6,5 +6,5 @@ C_FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
 
 C_DEFINES = 
 
-C_INCLUDES = -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\glad\include 
+C_INCLUDES = -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\glad\include 
 

@@ -6,5 +6,5 @@ C_FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
 
 C_DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
 
-C_INCLUDES = -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\glfw\include -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\glfw\src -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src 
+C_INCLUDES = -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\glfw\include -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\glfw\src -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\src 
 

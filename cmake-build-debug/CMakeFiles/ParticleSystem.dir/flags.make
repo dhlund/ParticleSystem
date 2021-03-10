@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /W4 -std:
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\include -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\tracy -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\glad\include -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\glfw\include -IC:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\ext\imgui 
+CXX_INCLUDES = -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\include -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\tracy -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\glad\include -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\glfw\include -IC:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\ext\imgui 
 

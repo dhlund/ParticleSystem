@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/tracy/TracyClient.cpp" "C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/tracy.dir/ext/tracy/TracyClient.cpp.obj"
+  "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/ext/tracy/TracyClient.cpp" "C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/cmake-build-debug/CMakeFiles/tracy.dir/ext/tracy/TracyClient.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

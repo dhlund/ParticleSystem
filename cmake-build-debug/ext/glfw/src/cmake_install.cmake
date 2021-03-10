@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Daniel/Desktop/kandidat_labb2/particlesystem/ext/glfw/src
+# Install script for directory: C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/ext/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

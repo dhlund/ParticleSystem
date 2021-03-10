@@ -22,6 +22,7 @@ CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: ..\ext\tracy\common\TracySyst
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: ..\ext\tracy\common\tracy_benaphore.h
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: ..\ext\tracy\common\tracy_sema.h
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: ..\include\Emitter.h
+CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: ..\include\Force.h
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: ..\include\Particle.h
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: ..\include\particlesystem.h
 CMakeFiles\ParticleSystem.dir\src\Emitter.cpp.obj: ..\include\util\color.h
@@ -82,6 +83,7 @@ CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: ..\ext\tracy\common\TracySystem.
 CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: ..\ext\tracy\common\tracy_benaphore.h
 CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: ..\ext\tracy\common\tracy_sema.h
 CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: ..\include\Emitter.h
+CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: ..\include\Force.h
 CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: ..\include\Particle.h
 CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: ..\include\particlesystem.h
 CMakeFiles\ParticleSystem.dir\src\main.cpp.obj: ..\include\util\color.h
@@ -110,6 +112,7 @@ CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: ..\ext\tracy\common\Tr
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: ..\ext\tracy\common\tracy_benaphore.h
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: ..\ext\tracy\common\tracy_sema.h
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: ..\include\Emitter.h
+CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: ..\include\Force.h
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: ..\include\Particle.h
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: ..\include\particlesystem.h
 CMakeFiles\ParticleSystem.dir\src\particlesystem.cpp.obj: ..\include\util\color.h

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem
+CMAKE_SOURCE_DIR = C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,18 +84,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\CMakeFiles\progress.marks
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ext\glfw\all
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles 0
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ext\glfw\clean
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
 .PHONY : clean
 
 # The main clean target
@@ -105,23 +105,23 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ext\glfw\preinstall
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ext\glfw\preinstall
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
 .PHONY : depend
 
 # Help Target
@@ -143,8 +143,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Users\Daniel\Desktop\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
+	cd C:\Users\Daniel\Desktop\Skola\kandidat_labb2\particlesystem\cmake-build-debug\ext\glfw
 .PHONY : cmake_check_build_system
 
