@@ -45,18 +45,21 @@ void ParticleSystem::update(float dt, float angle, float pps, float lifetime) {
 
                     if(!myForces.empty())
                     {
-                        float dist = (sqrt(pow(myParticles[i].position.x - myForces[0].position.x,2) +
+                        /*float dist = (sqrt(pow(myParticles[i].position.x - myForces[0].position.x,2) +
                                            pow(myParticles[i].position.y - myForces[0].position.y,2)));
 
                         float temp = abs(myForces[0].position.x * myParticles[i].position.x + myForces[0].position.y * myParticles[i].position.y)/
                             (sqrt(pow(myForces[0].position.x,2) + pow(myForces[0].position.y, 2)) * sqrt(pow(myParticles[i].position.x,2) + pow(myParticles[i].position.y,2)));
 
+                       std::cout << sin(temp) << std::endl;
 
                        myForces[0].force_tot.x = (myForces[0].force/ dist*10) * sin(temp);
                        myForces[0].force_tot.y = (myForces[0].force/ dist*10) * cos(temp);
                        //std::cout << dist << std::endl;
 
                        //std::cout << myForces[0].force_tot.x << std::endl;
+                        */
+                        myForces[0].force_tot = {0, -19.82};
 
                         myParticles[i].velocity = myParticles[i].velocity + myForces[0].force_tot*dt;
                         //myParticles[i].velocity.y = myParticles[i].velocity.y + myForces[0].force_tot.y*dt;
@@ -65,7 +68,7 @@ void ParticleSystem::update(float dt, float angle, float pps, float lifetime) {
                     myParticles[i].position =
                         myParticles[i].position + myParticles[i].velocity * dt;
 
-                    myParticles[i].lifetime -= 0.01;
+                    myParticles[i].lifetime -= 0.001;
                     if(myParticles[i].lifetime <= 0) myParticles.erase(myParticles.begin()+i);
                 }
             }
