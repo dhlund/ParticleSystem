@@ -284,23 +284,21 @@ vector
 cmath
 -
 
-C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/src/main.cpp
-Tracy.hpp
-C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/src/Tracy.hpp
+C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/src/particlesystem.cpp
 particlesystem.h
 C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/src/particlesystem.h
-util/rendering.h
-C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/src/util/rendering.h
-algorithm
--
-iterator
+Tracy.hpp
+C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/src/Tracy.hpp
+cmath
 -
 random
 -
-Emitter.h
--
-cmath
--
 iostream
 -
+Particle.h
+C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/src/Particle.h
+Emitter.h
+C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/src/Emitter.h
+Force.h
+C:/Users/Daniel/Desktop/Skola/kandidat_labb2/particlesystem/src/Force.h
 

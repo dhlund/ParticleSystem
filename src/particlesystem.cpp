@@ -19,7 +19,7 @@ ParticleSystem::ParticleSystem() {
     std::vector<Force> myForces;
 }
 
-void ParticleSystem::update(float dt, float angle, float pps, float lifetime) {
+void ParticleSystem::update(float dt, float angle, float pps, float lifetime, bool gravity) {
     // @TODO: Update the state of the particle system, move particles forwards, spawn new
     // particles, destroy old particles, and apply effects
 
@@ -38,36 +38,28 @@ void ParticleSystem::update(float dt, float angle, float pps, float lifetime) {
                 myEmitters[j].timeval = 0;
             }
 
-
             if (!myParticles.empty()) {
 
                 for (int i = 0; i < myParticles.size(); i++) {
+                    if(!myForces.empty()){
 
-                    if(!myForces.empty())
-                    {
-                        /*float dist = (sqrt(pow(myParticles[i].position.x - myForces[0].position.x,2) +
+                        float dist = (sqrt(pow(myParticles[i].position.x - myForces[0].position.x,2) +
                                            pow(myParticles[i].position.y - myForces[0].position.y,2)));
 
-                        float temp = abs(myForces[0].position.x * myParticles[i].position.x + myForces[0].position.y * myParticles[i].position.y)/
-                            (sqrt(pow(myForces[0].position.x,2) + pow(myForces[0].position.y, 2)) * sqrt(pow(myParticles[i].position.x,2) + pow(myParticles[i].position.y,2)));
+                        vec2 diff = myParticles[i].position - myForces[0].position;
 
-                       std::cout << sin(temp) << std::endl;
-
-                       myForces[0].force_tot.x = (myForces[0].force/ dist*10) * sin(temp);
-                       myForces[0].force_tot.y = (myForces[0].force/ dist*10) * cos(temp);
-                       //std::cout << dist << std::endl;
-
-                       //std::cout << myForces[0].force_tot.x << std::endl;
-                        */
-                        myForces[0].force_tot = {0, -19.82};
-
-                        myParticles[i].velocity = myParticles[i].velocity + myForces[0].force_tot*dt;
-                        //myParticles[i].velocity.y = myParticles[i].velocity.y + myForces[0].force_tot.y*dt;
+                        if (dist < 0.2) {
+                            myParticles[i].velocity.x += myForces[0].force * diff.x*dt;
+                            myParticles[i].velocity.y += myForces[0].force * diff.y*dt;
+                        }
                     }
 
-                    myParticles[i].position =
-                        myParticles[i].position + myParticles[i].velocity * dt;
+                    if(gravity){
+                        vec2 gravity_force{0,-20};
+                        myParticles[i].velocity = myParticles[i].velocity + gravity_force*dt;
+                    }
 
+                    myParticles[i].position += myParticles[i].velocity * dt;
                     myParticles[i].lifetime -= 0.001;
                     if(myParticles[i].lifetime <= 0) myParticles.erase(myParticles.begin()+i);
                 }
@@ -94,7 +86,6 @@ void ParticleSystem::addForce(vec2 position, float angle, float force)
     myForce.force_tot = {0,0};
 
     myForces.push_back(myForce);
-
 }
 
 void ParticleSystem::addParticle(vec2 position, float lifetime, Color color, float radius, Emitter emitter)

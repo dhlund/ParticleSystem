@@ -16,7 +16,7 @@ public:
     std::vector<Particle> myParticles;
     std::vector<Emitter> myEmitters;
     std::vector<Force> myForces;
-    void update(float dt, float angle, float pps, float lifetime);
+    void update(float dt, float angle, float pps, float lifetime, bool gravity);
     void render();
     void addParticle(vec2 position, float lifetime, Color color, float radius, Emitter emitter);
     void addForce(vec2 position, float angle, float force);

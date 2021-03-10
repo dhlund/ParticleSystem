@@ -27,6 +27,7 @@ int main(int, char**) {
     float lifetime = 8;
     Color myColor = Color(1,1,1);
     bool isRunning = true;
+    bool gravity = false;
     while (isRunning) {
         const float dt = rendering::beginFrame();
 
@@ -57,7 +58,11 @@ int main(int, char**) {
             if(ui::button("Add Force"))
             {
                 std::cout << "Adding force..." << std::endl;
-                particleSystem.addForce(coord,(float)M_PI_4, 200);
+                particleSystem.addForce(coord,(float)M_PI_4, 2000);
+            }
+            if(ui::button("Toggle Gravity"))
+            {
+                gravity = !gravity;
             }
 
             if (ui::button("Close application")) {
@@ -65,7 +70,7 @@ int main(int, char**) {
             }
         }
 
-        particleSystem.update(dt * speed, angle, pps, lifetime);
+        particleSystem.update(dt * speed, angle, pps, lifetime, gravity);
         particleSystem.render();
 
         // particle generation and rendering example. Remove in your implementation.
